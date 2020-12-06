@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 21px;
+  line-height: 23px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font: 400 16px "Montserrat";
+}
+
+button,
+input,
+textarea {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+.MuiFormLabel-root {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+ul,
+ol {
+  list-style: none;
+}
